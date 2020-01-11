@@ -1,0 +1,21 @@
+<!-- Accessing app -->
+http://<your_app_url>/login | /register
+http://<your_app_url>/dashboard
+http://<your_app_url>/dashboard/auth
+
+<!-- User List -->
+Administrator
+user: admin@admin.com
+pass: 12345678
+
+Member
+user: member@member.com
+pass: 12345678
+
+<!-- Config -->
+Database : ci_dashboard
+Base_url : dynamic (you don't need to config it, just open the folder via localhost)
+
+<!-- Notes -->
+This is the first version from me, so you may found some bugs, wrong configuration and more. You can use this for your project too, just use it as you want, maybe you can give me some suggestion after you use this simple app.
+The site title, breadcrumbs, all set manualy in the controller, i don't know how to make it dynamic yet, so you need to config or change it first.
